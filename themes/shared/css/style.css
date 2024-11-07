@@ -58,12 +58,10 @@ body {
     }
 }
 
-.body_structure {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.me_image {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
 }
 
 .title * {
@@ -115,7 +113,8 @@ img {
 
 .me_image {
     display: block;
-    max-width: 40%;
+    margin: 20px auto;
+    max-width: 50%;
     height: auto;
     border-radius: 10px;
 }

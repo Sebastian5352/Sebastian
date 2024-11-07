@@ -6,6 +6,11 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
 
-This is a sample home page written in markdown with some frontmatter defined.
+
+Hej på dig!
+Här får  du se när jag ändrar denna hemsida med olika designer.
+Jag heter Sebastian och kommer från limhamn
+
+
+![me_img](image/me.jpg){.me_image}
