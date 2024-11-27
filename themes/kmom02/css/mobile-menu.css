@@ -14,8 +14,27 @@
     padding: 0 1em;
 }
 
+
+
+@keyframes colorChange {
+    0% { background-color: #ff0000; }
+    10% { background-color: #c8ff00; }
+    20% { background-color: #00ff40; }
+    30% { background-color: #00ffea; }
+    40% { background-color: #1900ff; }
+    50% { background-color: #cc00ff; }
+    60% { background-color: #6201ff; }
+    70% { background-color: #00eeff; }
+    80% { background-color: #00ff66; }
+    90% { background-color: #d0ff00; }
+    100% { background-color: #ff1900; }
+}
+
+
 .nav a, .nav-toggle {
-    color: #333;
+    color: #000000;
+    text-decoration: none;
+    animation: colorChange 100s infinite;
 }
 
 .nav-toggle {
